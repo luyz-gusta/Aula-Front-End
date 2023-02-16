@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    min-height: 50vh;
+    gap: 16px;
+    background-color: #000;
+    margin: 16px;
+    padding: 16px;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.aluno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 200px;
+    background-color: #00f;
+}
+
+.aluno__aprovado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.aluno__reprovado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.aluno__nota{
+    font-size: 120px;
+}
