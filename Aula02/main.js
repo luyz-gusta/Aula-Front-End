@@ -62,7 +62,7 @@ const handleClick = () => {
         nota: verificarNota(prompt('Digite o nota do Aluno: ').replace(',','.'))
     }
 
-    if(nome != false && nota != false){
+    if(aluno.nome != false && aluno.nota != false){
         adicionarCard(aluno)
     }
 
